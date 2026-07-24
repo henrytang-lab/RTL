@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="byte2pixel_rev_0" device="LIF-MD6000-6KMG80I" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="byte2pixel_tb" top="byte2pixel"/>
+        <Source name="byte2pixel_rev_0/byte2pixel_rev_0.sbx" type="sbx" type_short="SBX">
+            <Options top_module="byte2pixel"/>
+        </Source>
+        <Source name="byte2pixel_eval/testbench/byte2pixel_tb.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="byte2pixel_eval/testbench/dut_params.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="byte2pixel_eval/testbench/pixel_monitor.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="byte2pixel_eval/testbench/tb_defs.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="byte2pixel_rev_0.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="simulation/simulation.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="byte2pixel_rev_01.sty"/>
+</BaliProject>

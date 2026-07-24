@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/26/2024 12:41:00
+#Project Location: C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main; Project name: crosslink_histo_demo_proj
+prj_project open "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj.ldf"
+prj_run PAR -impl impl1 -forceAll
+sbp_design open -dsgn "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ip.sbx"
+prj_run Export -impl impl1 -task TimingSimFileVlg
+sbp_design open -dsgn "C:/Users/Henry Tang/Downloads/sx3_live_aud_vid_explorer_fpga_des_sept20/source/ip/pll/pll.sbx"
+prj_project close
+#Stop recording: 9/26/2024 14:23:48

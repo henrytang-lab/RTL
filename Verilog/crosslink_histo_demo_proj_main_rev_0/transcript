@@ -1,0 +1,88 @@
+# Reading pref.tcl
+# do {C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/simulation/simulation.mdo}
+# Loading project simulation
+# Compile of capture_ctrl_beh.v was successful.
+# Compile of csi_dphy_rx_capture_ctrl.v was successful.
+# Compile of rx_global_ctrl_beh.v was successful.
+# Compile of csi_dphy_rx_rx_global_ctrl.v was successful.
+# Compile of soft_dphy_rx_beh.v was successful.
+# Compile of csi_dphy_rx_soft_dphy_rx.v was successful.
+# Compile of csi_dphy_rx_dphy_wrapper.v was successful.
+# Compile of dphy_rx_wrap_beh.v was successful.
+# Compile of csi_dphy_rx_dphy_rx_wrap.v was successful.
+# Compile of csi_dphy_rx_dphy_rx.v was successful.
+# Compile of csi_dphy_rx.v was successful.
+# Compile of mipidphy2cmos.v was successful.
+# Compile of reset_manager.v was successful.
+# Compile of reset_bridge.v was successful.
+# Compile of pll_ip.v was successful.
+# Compile of topmod.v was successful.
+# Compile of ram_dq_ip.v was successful.
+# Compile of ip.v was successful.
+# Compile of pixel2histo.v was successful.
+# Compile of mipidphy2cmos_tf.v was successful.
+# Compile of byte2pix.v was successful.
+# Compile of byte2pix_byte2pixel.v was successful.
+# Compile of csi_dphy_rx_tb.v failed with 2 errors.
+# 23 compiles, 1 failed with 2 errors.
+# vsim -L work -L pmi_work -L ovi_lifmd topmod 
+# Start time: 13:30:42 on Oct 03,2024
+# //  ModelSim - Lattice FPGA Edition 2023.3 Jul 18 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Lattice FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.topmod
+# Loading ovi_lifmd.OSCI
+# Loading ovi_lifmd.osc_wrapper
+# Loading ovi_lifmd.osc_top
+# Loading ovi_lifmd.osc_digital
+# Loading ovi_lifmd.osc_analog
+# Loading ovi_lifmd.mux2_hvt_p
+# Loading ovi_lifmd.sguo_sleep_gate
+# Loading ovi_lifmd.nand2_hvt_p
+# Loading ovi_lifmd.inv_hvt_p
+# Loading ovi_lifmd.sguo_buffer
+# Loading ovi_lifmd.pmu_cfg_clk_or2_gate
+# Loading ovi_lifmd.nor2_hvt_p
+# Loading work.pll_ip
+# Loading ovi_lifmd.VHI
+# Loading ovi_lifmd.VLO
+# Loading ovi_lifmd.EHXPLLM
+# Loading ovi_lifmd.pll_top
+# Loading ovi_lifmd.pll_pwr
+# Loading ovi_lifmd.pll_pll
+# Loading work.reset_bridge
+# Loading work.reset_manager
+# Loading work.mipidphy2cmos
+# Loading ovi_lifmd.GSR
+# Loading work.csi_dphy_rx
+# Loading work.csi_dphy_rx_dphy_rx
+# Loading work.csi_dphy_rx_dphy_rx_wrap
+# Loading work.dphy_rx_wrap
+# Loading work.csi_dphy_rx_dphy_wrapper
+# Loading work.csi_dphy_rx_rx_global_ctrl
+# Loading work.rx_global_ctrl
+# Loading work.oh337fd
+# Loading work.byte2pix
+# Loading work.byte2pix_byte2pixel
+# ** Error: (vsim-3033) Instantiation of 'byte2pixel' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /topmod/mipidphy2cmos/byte_pixel/byte2pixel_wrapper File: C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v Line: 40
+#         Searched libraries:
+#             C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/simulation/work
+#             C:/lscc/diamond/3.13/modeltech/lib/pmi_work
+#             C:/lscc/diamond/3.13/modeltech/lib/ovi_lifmd
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO C:\Project\Working\FPGA\HOME\FPGA\crosslink_histo_demo_proj_main_rev_0\simulation\simulation.mdo PAUSED at line 62
+# End time: 13:43:51 on Oct 03,2024, Elapsed time: 0:13:09
+# Errors: 1, Warnings: 2

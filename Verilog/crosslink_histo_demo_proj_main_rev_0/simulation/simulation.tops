@@ -1,0 +1,5 @@
+topmod,/,C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v
+tb,/,C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v
+ip,/,C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v
+pixel2histo,/,C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v
+mipidphy2cmos_tf,/,C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v

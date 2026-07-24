@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation
+vbyte2pixel
+2C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v
+Z1 !s125 LATTICE_CONN
+Z2 !s110 1728055948
+!i10b 1
+!s100 ;WeI3f=]<=@MEUj?U_3<83
+I8jTEfWObm1AUJ@4Q[eQH22
+R0
+w1728054547
+8C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v
+FC:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v
+!i122 2
+L0 11 31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OT;L;2023.3;77
+r1
+!s85 0
+31
+Z5 !s108 1728055948.000000
+!s107 C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v|
+!s90 -reportprogress|300|+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation|-work|work|C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v|
+!s101 -O0
+!i113 1
+Z6 o-work work -O0
+Z7 !s92 +incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation -work work -O0
+Z8 tCvgOpt 0
+vbyte2pixel_rev_1
+2C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v
+R1
+R2
+!i10b 1
+!s100 Vlc<CNdW94E^=8Q1^3P?]2
+IV`]QAa1YaUVn2Tcb5W7eP1
+R0
+Z9 w1728054457
+8C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v
+FC:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v
+!i122 0
+L0 15 48
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v|
+!s90 -reportprogress|300|+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation|-work|work|C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v|
+!s101 -O0
+!i113 1
+R6
+R7
+R8
+vbyte2pixel_rev_1_byte2pixel
+2C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v
+R1
+R2
+!i10b 1
+!s100 EjbdTGaVAdXkTUYe6JQ0l2
+I6bAz_8d`5Tn8cmohT8@]o2
+R0
+R9
+8C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v
+FC:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v
+!i122 1
+L0 8 62
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v|
+!s90 -reportprogress|300|+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation|-work|work|C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v|
+!s101 -O0
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,36 @@
+#Start recording tcl command: 10/3/2024 14:01:01
+#Project Location: C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0; Project name: byte2pixel_rev_0
+prj_project new -name "byte2pixel_rev_0" -impl "impl1" -dev LIF-MD6000-6KMG80I -synthesis "lse"
+prj_project save
+sbp_design new -dsgn "byte2pixel" -path "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel" -device "LIF-MD6000-6KMG80I"
+sbp_design new -dsgn "byte2pixel_rev_0" -path "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0" -device "LIF-MD6000-6KMG80I"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel"
+source "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {byte2pixel_rev_0/byte2pixel}
+sbp_design save
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel_rev_0.sbx"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation/simulation.spf"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel_wrap.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel_tb.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel_tb.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel_wrap.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_rev_0/byte2pixel/byte2pixel.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel.lpc"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel.lpc"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/byte2pixel_tb.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/byte_driver.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/byte2pixel_tb.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/csi2_tasks.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/dsi_tasks.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/dut_inst.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/dut_params.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/pixel_monitor.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/tb_defs.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/test_csi2_reset.v" "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/test_dsi_reset.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/byte_driver.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/dsi_tasks.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/csi2_tasks.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/test_csi2_reset.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/test_dsi_reset.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_eval/testbench/dut_inst.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_byte2pixel.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_wrap.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_byte2pixel.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel.v"
+prj_src remove "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/byte2pixel_wrap.v"
+prj_project save
+prj_project close
+#Stop recording: 10/4/2024 07:56:47

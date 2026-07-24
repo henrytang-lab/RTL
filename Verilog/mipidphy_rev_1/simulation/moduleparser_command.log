@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.13/bin/nt64/moduleparser.exe -PROJ simulation -pf C:/lscc/diamond/3.13/cae_library/synthesis/vhdl/lifmd.vhd -lib lifmd -pf C:/lscc/diamond/3.13/cae_library/synthesis/verilog/lifmd.v -pkg C:/lscc/diamond/3.13/cae_library/vhdl_packages/vdbs -lst C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/source_files.lst

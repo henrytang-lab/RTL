@@ -1,0 +1,125 @@
+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_global_ctrl
+
+Top level modules:
+	csi_dphy_rx_global_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module mipiphy_rev_0
+
+Top level modules:
+	mipiphy_rev_0
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_dphy_rx_wrap
+
+Top level modules:
+	csi_dphy_dphy_rx_wrap
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module capture_ctrl
+
+Top level modules:
+	capture_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_soft_dphy_rx
+
+Top level modules:
+	csi_dphy_soft_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_dphy_wrapper
+
+Top level modules:
+	csi_dphy_dphy_wrapper
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module rx_global_ctrl
+-- Compiling module oh337fd
+
+Top level modules:
+	rx_global_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_dphy_rx
+
+Top level modules:
+	csi_dphy_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module bus_driver
+-- Compiling module clk_driver
+-- Compiling module csi2_model
+-- Compiling module dsi_model
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module dphy_rx_wrap
+-- Compiling module ea6265f
+-- Compiling module zkf4a2e
+-- Compiling module faeb128
+-- Compiling module nr7bafa
+-- Compiling module pfd713e
+-- Compiling module tw433a
+
+Top level modules:
+	dphy_rx_wrap
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_capture_ctrl
+
+Top level modules:
+	csi_dphy_capture_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v {0 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module bus_driver
+-- Compiling module clk_driver
+-- Compiling module csi2_model
+-- Compiling module dsi_model
+-- Compiling module tb
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(154): (vlog-2730) Undefined variable: 'reset_n_i'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(157): (vlog-2730) Undefined variable: 'capture_en_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(158): (vlog-2730) Undefined variable: 'clk_byte_fr_i'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(165): (vlog-2730) Undefined variable: 'bd3_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(165): (vlog-2730) Undefined variable: 'bd2_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(165): (vlog-2730) Undefined variable: 'bd1_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(165): (vlog-2730) Undefined variable: 'bd0_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(265): (vlog-2730) Undefined variable: 'reset_n_i'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(268): (vlog-2730) Undefined variable: 'payload_en_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(273): (vlog-2730) Undefined variable: 'wc_o'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(276): (vlog-2730) Undefined variable: 'clk_byte_fr_i'.
+** Error: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v(277): (vlog-2730) Undefined variable: 'payload_o'.
+
+} {8.0 20.0} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module soft_dphy_rx
+-- Compiling module zxcd2d7
+-- Compiling module je25865
+
+Top level modules:
+	soft_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy
+
+Top level modules:
+	csi_dphy
+
+} {} {}}

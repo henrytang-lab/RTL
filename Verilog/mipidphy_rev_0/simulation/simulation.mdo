@@ -1,0 +1,41 @@
+if {![file exists "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/simulation.mpf"]} { 
+	project new "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation" simulation
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench  -work work  "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v"
+} else {
+	project open "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/simulation"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_lifmd  tb
+view wave
+add wave /*
+run 1000ns

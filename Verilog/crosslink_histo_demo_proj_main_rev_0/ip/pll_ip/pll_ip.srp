@@ -1,0 +1,26 @@
+SCUBA, Version Diamond (64-bit) 3.13.0.56.2
+Mon Sep 30 07:58:25 2024
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.13\ispfpga\bin\nt64\scuba.exe -w -n pll_ip -lang verilog -synth lse -bus_exp 7 -bb -arch sn5w00 -type pll -fin 83.75 -fclkop 83.75 -fclkop_tol 0.0 -fclkos 83.75 -fclkos_tol 0.0 -phases 0 -phase_cntl STATIC -lock -fb_mode 1 -bw HIGH -fdc C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.fdc 
+    Circuit name     : pll_ip
+    Module type      : pll
+    Module Version   : 5.7
+    Ports            : 
+	Inputs       : CLKI
+	Outputs      : CLKOP, CLKOS, LOCK
+    I/O buffer       : not inserted
+    EDIF output      : pll_ip.edn
+    Verilog output   : pll_ip.v
+    Verilog template : pll_ip_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : pll_ip.srp
+    Element Usage    :
+        EHXPLLM : 1
+    Estimated Resource Usage:

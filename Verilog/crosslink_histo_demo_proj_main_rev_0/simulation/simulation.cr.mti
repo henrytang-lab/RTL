@@ -1,0 +1,174 @@
+C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module soft_dphy_rx
+-- Compiling module zxcd2d7
+-- Compiling module je25865
+
+Top level modules:
+	soft_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_soft_dphy_rx
+
+Top level modules:
+	csi_dphy_rx_soft_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module mipidphy2cmos
+
+Top level modules:
+	mipidphy2cmos
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module pixel2histo
+
+Top level modules:
+	pixel2histo
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_dphy_wrapper
+
+Top level modules:
+	csi_dphy_rx_dphy_wrapper
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_dphy_rx
+
+Top level modules:
+	csi_dphy_rx_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module capture_ctrl
+
+Top level modules:
+	capture_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_capture_ctrl
+
+Top level modules:
+	csi_dphy_rx_capture_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v {0 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+** Error: ** while parsing file included at C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v(13)
+** at csi2_model.v(6): Cannot open `include file "bus_driver.v".
+** Error: ** while parsing file included at C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v(13)
+** at csi2_model.v(7): Cannot open `include file "clk_driver.v".
+-- Compiling module csi2_model
+-- Compiling module dsi_model
+-- Compiling module tb
+
+} {3.0 4.0 5.0 6.0} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module ram_dq_ip
+
+Top level modules:
+	ram_dq_ip
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module pll_ip
+
+Top level modules:
+	pll_ip
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module reset_bridge
+
+Top level modules:
+	reset_bridge
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx
+
+Top level modules:
+	csi_dphy_rx
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module mipidphy2cmos_tf
+
+Top level modules:
+	mipidphy2cmos_tf
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module ip
+
+Top level modules:
+	ip
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module topmod
+
+Top level modules:
+	topmod
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module byte2pix_byte2pixel
+
+Top level modules:
+	byte2pix_byte2pixel
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module rx_global_ctrl
+-- Compiling module oh337fd
+
+Top level modules:
+	rx_global_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_rx_global_ctrl
+
+Top level modules:
+	csi_dphy_rx_rx_global_ctrl
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module byte2pix
+
+Top level modules:
+	byte2pix
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module reset_manager
+
+Top level modules:
+	reset_manager
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module dphy_rx_wrap
+-- Compiling module ea6265f
+-- Compiling module zkf4a2e
+-- Compiling module faeb128
+-- Compiling module nr7bafa
+-- Compiling module pfd713e
+-- Compiling module tw433a
+
+Top level modules:
+	dphy_rx_wrap
+
+} {} {}} C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v {1 {vlog -work work -stats=none C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v
+Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+-- Compiling module csi_dphy_rx_dphy_rx_wrap
+
+Top level modules:
+	csi_dphy_rx_dphy_rx_wrap
+
+} {} {}}

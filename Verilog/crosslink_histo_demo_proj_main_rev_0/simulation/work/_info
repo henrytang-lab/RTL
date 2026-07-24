@@ -1,0 +1,888 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/simulation
+vbus_driver
+Z1 2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v
+Z2 !s110 1727985629
+!i10b 1
+!s100 BN]TcKjUh8dDRX?;SagPc2
+IgOiSS6B_3Khn>JBCb10a`3
+R0
+Z3 w1636782704
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/bus_driver.v
+Z4 FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/bus_driver.v
+!i122 23
+L0 8 58
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OT;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1727985629.000000
+Z8 !s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/clk_driver.v|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/bus_driver.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v|
+Z9 !s90 -reportprogress|300|+incdir+C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench|-work|work|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v|
+!s101 -O0
+!i113 1
+Z10 o-work work -O0
+Z11 !s92 +incdir+C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench -work work -O0
+Z12 tCvgOpt 0
+vbyte2pix
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v
+Z13 !s125 LATTICE_CONN
+Z14 !s110 1727987442
+!i10b 1
+!s100 PeLO3RI5AYRQno7FB87;;3
+IFCOceIB^l2K:N<VTQ[PYK3
+R0
+Z15 w1727708201
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v
+!i122 46
+L0 15 48
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1727987442.000000
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vbyte2pix_byte2pixel
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v
+R13
+R14
+!i10b 1
+!s100 FG1g[1^TDk?]oeo4VNQH`0
+IG4cPI0j=2hVlh^ob9mohl2
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v
+!i122 47
+L0 8 62
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/byte2pix/byte2pix_byte2pixel.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcapture_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v
+Z17 !s110 1727987440
+!i10b 1
+!s100 J48AXSkh<nkj]R?fiifI=2
+IiYNX9::Szn5=bUj]f]RCZ0
+R0
+R3
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v
+!i122 26
+L0 67 563
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1727987440.000000
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/capture_ctrl_beh.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vclk_driver
+R1
+R2
+!i10b 1
+!s100 5Ahk5IBCW9l=kgJVFJlnT3
+IiMGcE9eYfa=`LRF`T8?Nb0
+R0
+R3
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/clk_driver.v
+R4
+!i122 23
+L0 6 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vcsi2_model
+R1
+R2
+!i10b 1
+!s100 1;n[CXbTCCnTT5L[D3QMd3
+IXU;E:06n8zFDZSLSd@[i32
+R0
+R3
+Fcsi2_model.v
+R4
+!i122 23
+L0 9 1146
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+R12
+vcsi_dphy_rx
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v
+R13
+Z19 !s110 1727987441
+!i10b 1
+!s100 Af^8zKiP5lJg?<0O=XHG?1
+I;i6e]Z6EgM6daf_Wg`RV83
+R0
+Z20 w1727708233
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v
+!i122 36
+L0 8 209
+R5
+R6
+r1
+!s85 0
+31
+Z21 !s108 1727987441.000000
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_capture_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v
+R13
+R17
+!i10b 1
+!s100 5TfoieV9a440LD]_T][<32
+IkJG1k:U0B6NADM`Q8gj;E2
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v
+!i122 27
+L0 8 64
+R5
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_dphy_rx
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v
+R19
+!i10b 1
+!s100 UQOP2:]eCQLc9k]5[GNWI3
+I?S;o1E8jN_h3674h;C^9=2
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v
+!i122 35
+L0 53 403
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_dphy_rx_wrap
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v
+R13
+R19
+!i10b 1
+!s100 5kXRPkOaA?2Dhd8I3kTZ]2
+IcX9@QbECY5FjhoFKIAeCY2
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v
+!i122 34
+L0 8 76
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_dphy_wrapper
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v
+R19
+!i10b 1
+!s100 T4>LU8H^iheOdEJVXJSBC0
+IE9GCKjIS5<;HYdjg@[XnZ3
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v
+!i122 32
+L0 75 412
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_rx_global_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v
+R13
+R17
+!i10b 1
+!s100 k:gaF2j:]>lT?_V528ccb3
+IRzFcDWFLT@kKM7ZT;Q=LR1
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v
+!i122 29
+L0 8 97
+R5
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vcsi_dphy_rx_soft_dphy_rx
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v
+R13
+R19
+!i10b 1
+!s100 PMiI9Rb@1kfmQ3FEbh0S01
+I1B_bSN6nZYA_7OS0MX`h:3
+R0
+R20
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v
+!i122 31
+L0 8 81
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vdphy_rx_wrap
+Z22 2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v
+R19
+!i10b 1
+!s100 AWm]aL7X;>8<eC4AjGmXZ0
+IAl7LP3JjDFBzF9E]Y0c520
+R0
+R3
+Z23 8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v
+Z24 FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v
+!i122 33
+L0 74 288
+R5
+R6
+r1
+!s85 0
+31
+R21
+Z25 !s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/dphy_rx_wrap_beh.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vdsi_model
+R14
+!i10b 1
+!s100 7M?aj5BC71EBm4i:Mf]Q_1
+IfLGZPDdkLCT]l=@T243>90
+R0
+Z27 w1727985292
+Fdsi_model.v
+Z28 FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v
+!i122 48
+L0 6 1356
+R5
+R6
+r1
+!s85 0
+31
+R16
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vea6265f
+R22
+R19
+!i10b 1
+!s100 EX;B=E@ElGSbHzhUBC36`0
+IHH[hm12?L]d6omD:CGS:A3
+R0
+R3
+R23
+R24
+!i122 33
+L0 411 116
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+vfaeb128
+R22
+R19
+!i10b 1
+!s100 F?fc9T0YUBY[@33MeTN392
+I]]V7fn[jR7D0e<AH^UA]_1
+R0
+R3
+R23
+R24
+!i122 33
+L0 1043 66
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+vip
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v
+R13
+R19
+!i10b 1
+!s100 TJeJhGLo9g>XJ:Fi43SjL3
+IdXilA9HVMC>3]E2AT=JGZ0
+R0
+w1727708108
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v
+!i122 43
+L0 11 114
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ip.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vje25865
+Z30 2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v
+R19
+!i10b 1
+!s100 O8lajiz4:63<J4kce8h[M2
+Ihb9<nNgj5:l8C`[lA@`Vc3
+R0
+R3
+Z31 8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v
+Z32 FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v
+!i122 30
+L0 293 49
+R5
+R6
+r1
+!s85 0
+31
+R18
+Z33 !s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/soft_dphy_rx_beh.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vmipidphy2cmos
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v
+R19
+!i10b 1
+!s100 8m@_0TBDPm5:lbg2UM^]l0
+IL`DXjg0De@g16HKc:=UBT2
+R0
+Z35 w1727379633
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v
+!i122 37
+L0 3 193
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/mipidphy2cmos.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vmipidphy2cmos_tf
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v
+R19
+!i10b 1
+!s100 4jN;mJ9LUQj_m1272YLY@3
+I@9CO]zDBT4O:NE=<OC2CY3
+R0
+w1727451380
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v
+!i122 45
+L0 18 56
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/mipidphy2cmos_tf.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vnr7bafa
+R22
+R19
+!i10b 1
+!s100 cbLide@3TZ@]>N01>SjOP0
+IANDWa9Y@=]9<JIWIRkcNN3
+R0
+R3
+R23
+R24
+!i122 33
+L0 1163 170
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+voh337fd
+Z36 2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v
+R17
+!i10b 1
+!s100 7LVK^Z[LT:BVKYEBk6nz@0
+I9JV16DXFQg>LCaAT^>=UY2
+R0
+R3
+Z37 8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v
+Z38 FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v
+!i122 28
+L0 254 113
+R5
+R6
+r1
+!s85 0
+31
+R18
+Z39 !s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/csi_dphy_rx/src/beh_rtl/rx_global_ctrl_beh.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vpfd713e
+R22
+R19
+!i10b 1
+!s100 dbJF^0EOJDnE]XSRDb=]41
+I[dJ]UkW9YmGn`9GXdISQd3
+R0
+R3
+R23
+R24
+!i122 33
+L0 1387 240
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+vpixel2histo
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v
+R13
+R19
+!i10b 1
+!s100 o]4j<[B;5bgW^nH8zD0e;3
+I?U7QBQfF9PN;3ngZMn84g2
+R0
+R35
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v
+!i122 44
+L0 1 20
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/pixel2histo.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vpll_ip
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v
+R19
+!i10b 1
+!s100 bUD5K6VJJaWREV?8`:Z:@2
+Ic>j7LkPCk`JXo_ST40KDJ0
+R0
+w1727708305
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v
+!i122 40
+L0 8 73
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/pll_ip/pll_ip.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vram_dq_ip
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v
+R13
+R19
+!i10b 1
+!s100 fb^d4Loe:<@9kMDHNCi5S1
+IijS8:ZGe>HRi7G1b[LI]B0
+R0
+w1727708322
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v
+!i122 42
+L0 8 290
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/ram_dq_ip/ram_dq_ip.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vreset_bridge
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v
+R19
+!i10b 1
+!s100 `l:Eb`Ok[DSBMWz8Z>?PZ3
+IgVmEkT?o:BYzRfRQ7E=m`1
+R0
+R35
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v
+!i122 39
+L0 3 31
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_bridge.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vreset_manager
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v
+R19
+!i10b 1
+!s100 O_KUEAXX[hVRzG5E3^Cmm2
+I<D_fQf]Z@CQ=iZzEch;`k0
+R0
+R35
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v
+!i122 38
+L0 4 90
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/reset_manager.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vrx_global_ctrl
+R36
+R17
+!i10b 1
+!s100 l?X<BhChCmGZb1Acz0X1M3
+IN5YTJEY[d[eR[_IG2^4m<3
+R0
+R3
+R37
+R38
+!i122 28
+L0 63 132
+R5
+R6
+r1
+!s85 0
+31
+R18
+R39
+R40
+!s101 -O0
+!i113 1
+R10
+R12
+vsoft_dphy_rx
+R30
+R19
+!i10b 1
+!s100 k]CbG50iKoegM:Je^ngcQ2
+IXNMFb_Me>]@R<1[07fGV`1
+R0
+R3
+R31
+R32
+!i122 30
+L0 52 88
+R5
+R6
+r1
+!s85 0
+31
+R18
+R33
+R34
+!s101 -O0
+!i113 1
+R10
+R12
+vtb
+R14
+!i10b 1
+!s100 1VT^59l^S;nF:MM7f8:0@2
+IFYd=GTC:aI9FQG2kZibZ93
+R0
+R27
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v
+R28
+Fdut_params.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/dut_inst.v
+!i122 48
+L0 17 1237
+R5
+R6
+r1
+!s85 0
+31
+R16
+Z41 !s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v|
+R29
+!s101 -O0
+!i113 1
+R10
+R12
+vtopmod
+2C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v
+R19
+!i10b 1
+!s100 hOnnT@I4DiMNeJ[gAKGWF3
+IlgZ`kgz9zYel`E3:fzoQ20
+R0
+R35
+8C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v
+FC:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v
+!i122 41
+L0 3 116
+R5
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/source/topmod.v|
+!s101 -O0
+!i113 1
+R10
+R12
+vtw433a
+R22
+R19
+!i10b 1
+!s100 1aidLkQN<mWVR8?F0HiJR1
+IaKJ>Nj18Xd20JVf=:JklT3
+R0
+R3
+R23
+R24
+!i122 33
+L0 1681 243
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+vzkf4a2e
+R22
+R19
+!i10b 1
+!s100 UgbO>LEWTC;L]9S;g^ihh3
+IT@^VRD3`G@UX9oESBRlXV3
+R0
+R3
+R23
+R24
+!i122 33
+L0 576 407
+R5
+R6
+r1
+!s85 0
+31
+R21
+R25
+R26
+!s101 -O0
+!i113 1
+R10
+R12
+vzxcd2d7
+R30
+R19
+!i10b 1
+!s100 f?<d]SM3jbLIEd=8;<aCd3
+ID6<gEHA2PAf>oE0mF;YkV2
+R0
+R3
+R31
+R32
+!i122 30
+L0 185 63
+R5
+R6
+r1
+!s85 0
+31
+R18
+R33
+R34
+!s101 -O0
+!i113 1
+R10
+R12

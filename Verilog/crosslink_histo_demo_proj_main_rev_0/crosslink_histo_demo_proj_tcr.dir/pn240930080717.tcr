@@ -1,0 +1,35 @@
+#Start recording tcl command: 9/30/2024 07:52:16
+#Project Location: C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main; Project name: crosslink_histo_demo_proj
+prj_project open "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj.ldf"
+sbp_design open -dsgn "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ip.sbx"
+sbp_design gen
+sbp_design gen
+sbp_design gen
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/byte2pix"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/byte2pix/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ram_dq_ip"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ram_dq_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ram_dq_ip"
+source "C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ram_dq_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_run PAR -impl impl1 -task PARTrace -forceAll
+prj_project save
+prj_project close
+#Stop recording: 9/30/2024 08:07:17

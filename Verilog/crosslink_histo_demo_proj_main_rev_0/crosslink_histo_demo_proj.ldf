@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="crosslink_histo_demo_proj" device="LIF-MD6000-6KMG80I" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="tb" top="topmod"/>
+        <Source name="source/topmod.v" type="Verilog" type_short="Verilog">
+            <Options top_module="topmod"/>
+        </Source>
+        <Source name="ip/ip.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="source/mipidphy2cmos.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/reset_manager.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/pixel2histo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/reset_bridge.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="mipidphy2cmos_tf.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="ip/csi_dphy_rx/dphy_rx_eval/testbench/csi_dphy_rx_tb.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ip/byte2pix/byte2pix.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ip/byte2pix/byte2pix_byte2pixel.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="crosslink_histo_demo_proj.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="simulation/simulation.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="crosslink_histo_demo_proj1.sty"/>
+</BaliProject>

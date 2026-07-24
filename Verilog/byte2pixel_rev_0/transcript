@@ -1,0 +1,37 @@
+# Reading pref.tcl
+# do {C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation/simulation.mdo}
+# Loading project simulation
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+# Start time: 08:35:11 on Oct 04,2024
+# vlog -reportprogress 300 "+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation" -work work C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation/byte2pixel_rev_1.v 
+# -- Compiling module byte2pixel_rev_1
+# 
+# Top level modules:
+# 	byte2pixel_rev_1
+# End time: 08:35:11 on Oct 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+# Start time: 08:35:11 on Oct 04,2024
+# vlog -reportprogress 300 "+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation" -work work C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation/byte2pixel_rev_1_byte2pixel.v 
+# -- Compiling module byte2pixel_rev_1_byte2pixel
+# 
+# Top level modules:
+# 	byte2pixel_rev_1_byte2pixel
+# End time: 08:35:11 on Oct 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Lattice FPGA Edition vlog 2023.3 Compiler 2023.07 Jul 18 2023
+# Start time: 08:35:11 on Oct 04,2024
+# vlog -reportprogress 300 "+incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation" -work work C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_0/simulation/byte2pixel.v 
+# -- Compiling module byte2pixel
+# 
+# Top level modules:
+# 	byte2pixel
+# End time: 08:35:11 on Oct 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# No design specified
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: No Design Loaded!
+# Error in macro C:\Project\Working\FPGA\HOME\FPGA\byte2pixel_rev_0\simulation\simulation.mdo line 19
+# No Design Loaded!
+#     while executing
+# "run 1000ns"

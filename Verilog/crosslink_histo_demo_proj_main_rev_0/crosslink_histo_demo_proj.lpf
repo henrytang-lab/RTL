@@ -1,0 +1,83 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+
+############		Location and IO Constraints		############
+
+#	Input Reset
+LOCATE COMP "reset_n_i" SITE "J4" ;
+
+
+LOCATE COMP "cmos_data[0]" SITE "K6" ;# pixel data output
+LOCATE COMP "cmos_data[1]" SITE "K7" ;
+LOCATE COMP "cmos_data[2]" SITE "J6" ;
+LOCATE COMP "cmos_data[3]" SITE "K3" ;
+LOCATE COMP "cmos_data[4]" SITE "J3" ;
+LOCATE COMP "cmos_data[5]" SITE "F2" ;
+LOCATE COMP "cmos_data[6]" SITE "F1" ;
+LOCATE COMP "cmos_data[7]" SITE "E1" ;
+LOCATE COMP "cmos_data[8]" SITE "D9" ;
+#LOCATE COMP "flaga_count_index" SITE "D9" ;
+LOCATE COMP "cmos_data[9]" SITE "D10" ;
+#LOCATE COMP "buf_done_o" SITE "D10" ;
+LOCATE COMP "cmos_data[10]" SITE "E10" ;
+#LOCATE COMP "cur_gpif_st_o[0]" SITE "E10" ;
+LOCATE COMP "cmos_data[11]" SITE "F9" ;
+#LOCATE COMP "cur_gpif_st_o[1]" SITE "F9" ;
+LOCATE COMP "cmos_data[12]" SITE "F10" ;
+#LOCATE COMP "pktend_g_o" SITE "F10" ;
+LOCATE COMP "cmos_data[13]" SITE "G9" ;
+#LOCATE COMP "current_stream_in_state_o[0]" SITE "G9" ;
+LOCATE COMP "cmos_data[14]" SITE "G10" ;
+#LOCATE COMP "cam_app_en" SITE "G10" ;
+LOCATE COMP "cmos_data[15]" SITE "J7" ;
+#LOCATE COMP "cam_fifo_overflow" SITE "J7" ;
+
+LOCATE COMP "pclk_o" SITE "J8" ;
+LOCATE COMP "cmos_fv" SITE "J5" ;
+LOCATE COMP "cmos_lv" SITE "K9" ;
+
+# Following is the constrain for using MIPI port. By default, it uses port 0
+# but here, port 1 is used.
+LOCATE COMP "mipidphy2cmos/rx_dphy/csi_dphy_rx_inst/dphy_rx_inst/u_dphy_wrapper/MIXEL.mixel_dphy" SITE "MIPIDPHY1" ;
+
+BANK 0 VCCIO 3.3 V;
+BANK 1 VCCIO 3.3 V;
+BANK 2 VCCIO 3.3 V;
+
+IOBUF PORT "reset_n_i" IO_TYPE=LVCMOS33 PULLMODE=UP ;
+# IOBUF PORT "slclk_o" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[0]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[1]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[2]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[3]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[4]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[5]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[6]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[7]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[8]" IO_TYPE=LVCMOS33 ;
+# IOBUF PORT "flaga_count_index" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[9]" IO_TYPE=LVCMOS33 ;
+# IOBUF PORT "buf_done_o" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[10]" IO_TYPE=LVCMOS33 ;
+# IOBUF PORT "cur_gpif_st_o[0]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[11]" IO_TYPE=LVCMOS33 ;
+# IOBUF PORT "cur_gpif_st_o[1]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[12]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[13]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[14]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_data[15]" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_lv" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "cmos_fv" IO_TYPE=LVCMOS33 ;
+IOBUF PORT "pclk_o" IO_TYPE=LVCMOS33 ;
+
+###########		Timing Constarints			############
+BLOCK JTAGPATHS ;
+
+FREQUENCY NET "clk_osc" 48 MHz ;
+FREQUENCY NET "clk_pixel" 83.75 MHz ; # For 1080p and 720p resolutions
+
+BLOCK PATH FROM CLKNET "clk_osc" TO CLKNET "clk_pixel" ;
+BLOCK PATH FROM CLKNET "clk_pixel" TO CLKNET "clk_osc" ;
+
+BLOCK PATH FROM CELL "rst_brg_osc/rst_meta_8"  ;
+

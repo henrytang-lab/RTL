@@ -1,0 +1,8 @@
+#Start recording tcl command: 10/3/2024 12:05:52
+#Project Location: C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0; Project name: mipidphy_rev_0
+prj_project open "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipidphy_rev_0.ldf"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v"
+prj_src add "C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/simulation.spf"
+prj_project save
+prj_project close
+#Stop recording: 10/3/2024 12:39:40

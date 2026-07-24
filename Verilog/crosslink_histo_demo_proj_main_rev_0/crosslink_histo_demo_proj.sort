@@ -1,0 +1,17 @@
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/source/topmod.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/byte2pix/byte2pix.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/byte2pix/byte2pix_byte2pixel_bb.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_dphy_wrapper.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_capture_ctrl_bb.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_dphy_rx_wrap_bb.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_rx_global_ctrl_bb.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/csi_dphy_rx/csi_dphy_rx_soft_dphy_rx_bb.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ram_dq_ip/ram_dq_ip.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/ip.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/source/mipidphy2cmos.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/source/reset_manager.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/source/pixel2histo.v
+C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/source/reset_bridge.v

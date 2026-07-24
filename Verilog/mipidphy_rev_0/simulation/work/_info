@@ -1,0 +1,641 @@
+m255
+K4
+z2
+!s11f vlog 2023.3 2023.07, Jul 18 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation
+vbus_driver
+Z1 !s110 1727983369
+!i10b 1
+!s100 BN]TcKjUh8dDRX?;SagPc2
+IN><_]WojUS9ej9hF`UGJ81
+R0
+Z2 w1636782704
+Z3 8bus_driver.v
+Z4 Fbus_driver.v
+!i122 27
+L0 8 58
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OT;L;2023.3;77
+r1
+!s85 0
+31
+Z7 !s108 1727983369.000000
+!s107 dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|clk_driver.v|bus_driver.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v|
+Z8 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v|
+!s101 -O0
+!i113 1
+Z9 o-work work -O0
+Z10 tCvgOpt 0
+vcapture_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v
+Z11 !s110 1727983368
+!i10b 1
+!s100 J48AXSkh<nkj]R?fiifI=2
+ITh5N`RDLY1@5aA0H]5ZW=1
+R0
+R2
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v
+!i122 14
+L0 67 563
+R5
+R6
+r1
+!s85 0
+31
+Z12 !s108 1727983368.000000
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/capture_ctrl_beh.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vclk_driver
+R1
+!i10b 1
+!s100 5Ahk5IBCW9l=kgJVFJlnT3
+IhUWV399nFBl]:;D][1A:z3
+R0
+R2
+Fclk_driver.v
+R4
+!i122 27
+L0 6 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|clk_driver.v|bus_driver.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/testbench/csi_dphy_tb.v|
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi2_model
+R1
+!i10b 1
+!s100 1;n[CXbTCCnTT5L[D3QMd3
+Io8oQ6kmAfEI_OZE_PZGJ10
+R0
+R2
+Fcsi2_model.v
+R4
+!i122 27
+L0 9 1146
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v
+Z14 !s125 LATTICE_CONN
+R1
+!i10b 1
+!s100 W2SHI3OSi@a_>i:AG[JoS3
+IoC_9PBzHI]T0R4Z6J>d=g3
+R0
+Z15 w1727898327
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v
+!i122 24
+L0 8 209
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_capture_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v
+R14
+R11
+!i10b 1
+!s100 Ce7Kkei7;[3WhMVFfY?j43
+I1eng2aJWl@oMU39zjMN982
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v
+!i122 15
+L0 8 64
+R5
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_capture_ctrl.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_dphy_rx
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v
+R1
+!i10b 1
+!s100 =DM2zJl8gkPTWBL]^CZ=?1
+IaLll3Ln2_bce;HcUgzmo43
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v
+!i122 23
+L0 53 403
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_dphy_rx_wrap
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v
+R14
+R1
+!i10b 1
+!s100 O1ZgfjV^]<PicECR`H_S00
+IC?KZLmGA^QIMi4:<onScI2
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v
+!i122 22
+L0 8 76
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_rx_wrap.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_dphy_wrapper
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v
+R1
+!i10b 1
+!s100 J9`hg:1Zo2:4:`g2U0^Wd1
+IOE4GIFebg^gQIgM69?^<51
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v
+!i122 20
+L0 75 412
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_dphy_wrapper.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_rx_global_ctrl
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v
+R14
+R11
+!i10b 1
+!s100 X08QHZUjZaz^j=lA6[KW`3
+IhLE3fXA7E;6I9kWSLTLoY1
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v
+!i122 17
+L0 8 97
+R5
+R6
+r1
+!s85 0
+31
+R12
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_rx_global_ctrl.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vcsi_dphy_soft_dphy_rx
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v
+R14
+R1
+!i10b 1
+!s100 3SDcPM5D8NbWoE_a;i^Si1
+I@k48z?nSA^QS1KZIU^D4P1
+R0
+R15
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v
+!i122 19
+L0 8 81
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/csi_dphy_soft_dphy_rx.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vdphy_rx_wrap
+Z16 2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v
+R1
+!i10b 1
+!s100 AWm]aL7X;>8<eC4AjGmXZ0
+ImVYPoS2Dd3d^zTU_1?8CS0
+R0
+R2
+Z17 8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v
+Z18 FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v
+!i122 21
+L0 74 288
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z19 !s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/dphy_rx_wrap_beh.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vdsi_model
+R1
+!i10b 1
+!s100 nKDCgX5BZRJC=5?1:iMBE3
+I^ol9?G:B3:>]4_X]nF3U`0
+R0
+R2
+Fdsi_model.v
+R4
+!i122 27
+L0 6 1356
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+vea6265f
+R16
+R1
+!i10b 1
+!s100 EX;B=E@ElGSbHzhUBC36`0
+I_]4@bZJK`B;Rz33PHa^AC0
+R0
+R2
+R17
+R18
+!i122 21
+L0 411 116
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+vfaeb128
+R16
+R1
+!i10b 1
+!s100 F?fc9T0YUBY[@33MeTN392
+IRhUP4Cmad0R<JI<WO8_]c3
+R0
+R2
+R17
+R18
+!i122 21
+L0 1043 66
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+vje25865
+Z21 2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v
+R1
+!i10b 1
+!s100 O8lajiz4:63<J4kce8h[M2
+IBlnkO;BMKMZXMMG1mCQYD0
+R0
+R2
+Z22 8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v
+Z23 FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v
+!i122 18
+L0 293 49
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z24 !s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v|
+Z25 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/soft_dphy_rx_beh.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vmipiphy_rev_0
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v
+R14
+R1
+!i10b 1
+!s100 gE7XhfQfWm9N^cDWRahbl0
+IY82O7D[ZQl7I9TSb87aMD2
+R0
+w1727898337
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v
+!i122 26
+L0 11 69
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/mipiphy_rev_0.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vnr7bafa
+R16
+R1
+!i10b 1
+!s100 cbLide@3TZ@]>N01>SjOP0
+I46<HBS967514N8M>d7QKe2
+R0
+R2
+R17
+R18
+!i122 21
+L0 1163 170
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+voh337fd
+Z26 2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v
+R11
+!i10b 1
+!s100 7LVK^Z[LT:BVKYEBk6nz@0
+I:LzDc9hKC:;JY2bb[Y`kR2
+R0
+R2
+Z27 8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v
+Z28 FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v
+!i122 16
+L0 254 113
+R5
+R6
+r1
+!s85 0
+31
+R12
+Z29 !s107 C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v|
+Z30 !s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/mipiphy_rev_0/csi_dphy/dphy_rx_eval/csi_dphy/src/beh_rtl/rx_global_ctrl_beh.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vpfd713e
+R16
+R1
+!i10b 1
+!s100 dbJF^0EOJDnE]XSRDb=]41
+IGEh0<I^YC^0jGRKANgOY`0
+R0
+R2
+R17
+R18
+!i122 21
+L0 1387 240
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+vrx_global_ctrl
+R26
+R11
+!i10b 1
+!s100 l?X<BhChCmGZb1Acz0X1M3
+IeAN0d30b1=_bMha0PVPM]2
+R0
+R2
+R27
+R28
+!i122 16
+L0 63 132
+R5
+R6
+r1
+!s85 0
+31
+R12
+R29
+R30
+!s101 -O0
+!i113 1
+R9
+R10
+vsoft_dphy_rx
+R21
+R1
+!i10b 1
+!s100 k]CbG50iKoegM:Je^ngcQ2
+IM@nmLGI]>6PQzmOeJLI:N0
+R0
+R2
+R22
+R23
+!i122 18
+L0 52 88
+R5
+R6
+r1
+!s85 0
+31
+R7
+R24
+R25
+!s101 -O0
+!i113 1
+R9
+R10
+vtb
+2C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v
+R1
+!i10b 1
+!s100 @D;]CX?a<4YBHl]5dcm][3
+IF]lU>J7D?=^6C21GL^Sh@2
+R0
+w1727983351
+8C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v
+FC:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v
+R3
+R4
+Fdut_params.v
+Fdut_inst.v
+!i122 25
+L0 17 1237
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 dut_inst.v|dut_params.v|tb_setup_params.v|dsi_model.v|clk_driver.v|bus_driver.v|csi2_model.v|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Project/Working/FPGA/HOME/FPGA/mipidphy_rev_0/simulation/csi_dphy_tb.v|
+!s101 -O0
+!i113 1
+R9
+R10
+vtw433a
+R16
+R1
+!i10b 1
+!s100 1aidLkQN<mWVR8?F0HiJR1
+I19fO3o_;zZNegm;oLF@[L1
+R0
+R2
+R17
+R18
+!i122 21
+L0 1681 243
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+vzkf4a2e
+R16
+R1
+!i10b 1
+!s100 UgbO>LEWTC;L]9S;g^ihh3
+I=J4a4NeW8WFeWnl@z3_Yg1
+R0
+R2
+R17
+R18
+!i122 21
+L0 576 407
+R5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!s101 -O0
+!i113 1
+R9
+R10
+vzxcd2d7
+R21
+R1
+!i10b 1
+!s100 f?<d]SM3jbLIEd=8;<aCd3
+IMSK01c96O5g`oLiF9a?_b3
+R0
+R2
+R22
+R23
+!i122 18
+L0 185 63
+R5
+R6
+r1
+!s85 0
+31
+R7
+R24
+R25
+!s101 -O0
+!i113 1
+R9
+R10

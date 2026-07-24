@@ -1,0 +1,5 @@
+#Start recording tcl command: 10/3/2024 13:59:39
+#Project Location: C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0; Project name: crosslink_histo_demo_proj
+prj_project open "C:/Project/Working/FPGA/HOME/FPGA/crosslink_histo_demo_proj_main_rev_0/crosslink_histo_demo_proj.ldf"
+prj_project close
+#Stop recording: 10/3/2024 14:01:01

@@ -1,0 +1,19 @@
+if {![file exists "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/simulation.mpf"]} { 
+	project new "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation" simulation
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v"
+	project addfile "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation  -work work  "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation  -work work  "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel_rev_1_byte2pixel.v"
+	vlog  +incdir+C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation  -work work  "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/byte2pixel.v"
+} else {
+	project open "C:/Project/Working/FPGA/HOME/FPGA/byte2pixel_rev_1/simulation/simulation"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_lifmd  
+view wave
+add wave /*
+run 1000ns

@@ -1,0 +1,142 @@
+synthesis:  version Diamond (64-bit) 3.13.0.56.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2023 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Sep 30 07:58:25 2024
+
+
+Command Line:  C:\lscc\diamond\3.13\ispfpga\bin\nt64\synthesis.exe -f pll_ip.synproj -sdc C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ldc -gui 
+
+Synthesis options:
+The -a option is lifmd.
+The -s option is 6.
+The -t option is CKFBGA80.
+The -d option is LIF-MD6000.
+Using package CKFBGA80.
+Using performance grade 6.
+                                                          
+
+##########################################################
+
+### Lattice Family : LIFMD
+
+### Device  : LIF-MD6000
+
+### Package : CKFBGA80
+
+### Speed   : 6
+
+##########################################################
+
+                                                          
+
+INFO - synthesis: User-Selected Strategy Settings
+Optimization goal = Balanced
+Top-level module name = pll_ip.
+Target frequency = 200.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Use IO Insertion = FALSE
+Use IO Reg = FALSE (implied)
+WARNING - synthesis: Cannot pack registers into I/Os because use_io_insertion is FALSE.
+WARNING - synthesis: Ignoring user setting of use_io_reg. Value is set to FALSE.
+Use IO Reg = FALSE
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip (searchpath added)
+Verilog design file = C:/lscc/diamond/3.13/cae_library/synthesis/verilog/lifmd.v
+Verilog design file = C:/lscc/diamond/3.13/cae_library/synthesis/verilog/pmi_def.v
+Verilog design file = C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.v
+NGO file = C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ngo
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+-sdc option: SDC file input is C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ldc.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Analyzing Verilog file C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/lifmd.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file c:/lscc/diamond/3.13/cae_library/synthesis/verilog/lifmd.v. VERI-1482
+Analyzing Verilog file c:/lscc/diamond/3.13/cae_library/synthesis/verilog/pmi_def.v. VERI-1482
+Analyzing Verilog file c:/project/working/fpga/home/camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.v. VERI-1482
+Analyzing Verilog file C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/lifmd.v. VERI-1482
+Top module name (Verilog): pll_ip
+INFO - synthesis: c:/project/working/fpga/home/camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.v(8): compiling module pll_ip. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/lifmd.v(741): compiling module VHI. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/lifmd.v(745): compiling module VLO. VERI-1018
+INFO - synthesis: C:/lscc/diamond/3.13/ispfpga/userware/NT/SYNTHESIS_HEADERS/lifmd.v(984): compiling module EHXPLLM(CLKOP_DIV=11,CLKOS_DIV=11,CLKOS_ENABLE="ENABLED",CLKOP_CPHASE=10,CLKOS_CPHASE=10,CLKOP_TRIM_POL="FALLING",CLKOS_TRIM_POL="FALLING"). VERI-1018
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/sn5w00/data/sn5wlib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/sa5p00/data/sa5plib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.13/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'sn5w6000.nph' in environment: C:/lscc/diamond/3.13/ispfpga.
+Package Status:                     Final          Version 1.38.
+WARNING - synthesis: There are no design constraints in the file C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ldc
+Top-level module name = pll_ip.
+WARNING - synthesis: c:/project/working/fpga/home/camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.v(20): Removing unused instance scuba_vhi_inst. VDB-5034
+WARNING - synthesis: Couldn't bind cell OFE1P3BX to technology library
+WARNING - synthesis: Couldn't bind cell OFE1P3DX to technology library
+WARNING - synthesis: Couldn't bind cell OFE1P3IX to technology library
+WARNING - synthesis: Couldn't bind cell OFE1P3JX to technology library
+WARNING - synthesis: Couldn't bind cell ROM16X1 to technology library
+WARNING - synthesis: Couldn't bind cell ROM32X1 to technology library
+WARNING - synthesis: Couldn't bind cell ROM64X1 to technology library
+WARNING - synthesis: Couldn't bind cell ROM128X1 to technology library
+WARNING - synthesis: Couldn't bind cell ROM256X1 to technology library
+WARNING - synthesis: There are no design constraints in the file C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ldc
+This ldc file was generated by Clarity Designer!
+
+
+
+
+######## GSR will not be inferred in an NGO flow, unless force_gsr=yes.
+WARNING - synthesis: There are no design constraints in the file pll_ip_for_lpf.sdc
+Writing LPF file C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.lpf.
+Results of NGD DRC are available in pll_ip_drc.log.
+WARNING - synthesis: DRC checking was skipped because the -ngo option was used.
+Writing NGD file C:/Project/Working/FPGA/HOME/Camera/crosslink_histo_demo_proj-main/crosslink_histo_demo_proj-main/ip/pll_ip/pll_ip.ngo.
+
+################### Begin Area Report (pll_ip)######################
+Number of register bits => 0 of 6047 (0 % )
+EHXPLLM => 1
+GSR => 1
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : CLKOP, loads : 1
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : CLKOS, loads : 0
+  Net : LOCK, loads : 0
+################### End Clock Report ##################
+
+Peak Memory Usage: 53.914  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.078  secs
+--------------------------------------------------------------

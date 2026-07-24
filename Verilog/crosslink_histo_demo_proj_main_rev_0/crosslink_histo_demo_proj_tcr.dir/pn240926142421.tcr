@@ -1,0 +1,197 @@
+#Start recording tcl command: 9/25/2024 14:57:35
+#Project Location: D:/temp/crosslink_histo_demo_proj; Project name: crosslink_histo_demo_proj
+prj_project new -name "crosslink_histo_demo_proj" -impl "impl1" -dev LIF-MD6000-6KMG80I -synthesis "lse"
+prj_project save
+sbp_design new -dsgn "ip" -path "D:/temp/crosslink_histo_demo_proj/ip" -device "LIF-MD6000-6KMG80I"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ip/pll_ip}
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/topmod.v"
+sbp_design gen
+prj_src add "D:/temp/crosslink_histo_demo_proj/ip/ip.sbx"
+prj_run Synthesis -impl impl1
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/csi_dphy_rx"
+source "D:/temp/crosslink_histo_demo_proj/ip/csi_dphy_rx/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ip/csi_dphy_rx}
+sbp_design gen
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/byte2pix"
+source "D:/temp/crosslink_histo_demo_proj/ip/byte2pix/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ip/byte2pix}
+sbp_design gen
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_src exclude "D:/temp/crosslink_histo_demo_proj/ip/ip.sbx"
+prj_run Synthesis -impl impl1
+prj_src enable "D:/temp/crosslink_histo_demo_proj/ip/ip.sbx"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/mipidphy2cmos.v"
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/reset_manager.v"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_src add -exclude "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_src enable "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_run Export -impl impl1
+pgr_program run
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_run Export -impl impl1
+sbp_design gen
+prj_run Export -impl impl1
+pgr_program run
+pgr_project close
+prj_run Export -impl impl1
+sbp_design open -dsgn "D:/temp/crosslink_histo_demo_proj/ip/ip.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/csi_dphy_rx"
+source "D:/temp/crosslink_histo_demo_proj/ip/csi_dphy_rx/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design gen
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/pll_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/pll_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design gen
+prj_run Export -impl impl1
+prj_src add "D:/temp/crosslink_histo_demo_proj/reset_bridge.v"
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis -forceAll
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1 -task Lattice_Synthesis
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run PAR -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/pixel2histo.v"
+prj_src remove "D:/temp/crosslink_histo_demo_proj/reset_bridge.v"
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/reset_manager.v"
+prj_run Export -impl impl1 -forceAll
+prj_run Synthesis -impl impl1
+prj_src add "D:/temp/crosslink_histo_demo_proj/source/reset_bridge.v"
+prj_run Export -impl impl1 -forceAll
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/ram_dq_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/ram_dq_ip/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "D:/temp/crosslink_histo_demo_proj/ip/ram_dq_ip"
+source "D:/temp/crosslink_histo_demo_proj/ip/ram_dq_ip/generate_ngd.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ip/ram_dq_ip}
+sbp_design gen
+prj_run Export -impl impl1
+prj_run Export -impl impl1 -forceAll
+pgr_project open "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_src remove "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_project close
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_src add -exclude "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_src enable "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program set -cable 
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_run Export -impl impl1 -forceAll
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_program run
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+pgr_program run
+pgr_program run
+prj_run Export -impl impl1 -forceAll
+pgr_project save "D:/temp/crosslink_histo_demo_proj/impl1/impl1.xcf"
+prj_project save
+prj_project close
+#Stop recording: 9/26/2024 14:24:21
