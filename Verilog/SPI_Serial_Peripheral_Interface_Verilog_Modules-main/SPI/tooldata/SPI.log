@@ -1,0 +1,16 @@
+Project Name: SPI
+Location: C:\Project\7000-0300 PWA SEED DRIVER\SPI_Serial_Peripheral_Interface_Verilog_Modules-main\SPI
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P030-1QN48
+Family         : ProASIC3
+Die            : A3P030
+Package        : 48 QFN
+Speed          : -1
+Core Voltage   : 1.5
+Range          : COM
